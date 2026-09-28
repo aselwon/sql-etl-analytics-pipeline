@@ -1,0 +1,10 @@
+order_id,product_id,product_name,quantity,unit_price
+101,1,Coffee,2,10.00
+101,2,Mug,1,15.00
+102,1,Coffee,1,10.00
+103,3,Tea,3,8.00
+104,2,Mug,2,15.00
+105,1,Coffee,2,10.00
+106,3,Tea,1,8.00
+107,2,Mug,1,15.00
+108,1,Coffee,1,10.00

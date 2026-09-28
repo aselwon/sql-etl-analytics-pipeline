@@ -1,0 +1,3 @@
+SELECT CASE WHEN EXISTS (SELECT 1 FROM raw.orders)
+ AND EXISTS (SELECT 1 FROM raw.customers)
+ AND EXISTS (SELECT 1 FROM raw.items) THEN 0 ELSE 1 END AS violations;
